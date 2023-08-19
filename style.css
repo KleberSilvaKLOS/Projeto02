@@ -1,0 +1,150 @@
+body{
+
+  margin: 0;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+main, footer {
+  display: flex;
+  
+}
+
+
+ul, a  {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  
+  color: var(--1-f-1534-hyfen, #7D7987);
+  
+}
+
+ul li a{
+  opacity: 0.5;
+}
+
+ul li a:hover{
+  opacity: 1;
+  font-weight: 700;
+  color: var(--1-f-1534-hyfen, #1F1534);
+  font-size: 18px;
+  
+}
+
+
+h1 {
+  width: 489px;
+  font-size: 49px;
+  font-weight: 400;
+  color: #1F1534;
+
+  font-family: 'Mulish', sans-serif;
+}
+
+.ex {
+  font-size: 49px;
+  font-weight: 700;
+
+  color: #89C5CC;
+  font-family: Mulish;
+}
+
+p {
+  width: 438px;
+  font-weight: 400;
+  font-size: 14px;
+
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7987;
+
+  margin-bottom: 40px;
+}
+
+.negrito {
+  font-size: 14px;
+  font-weight: 700;
+
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7987;
+}
+
+button:hover{
+  padding: 16px 34px 17px 34px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  transition-delay: 0.1s;
+
+  background-color: #53ad8d;
+}
+
+button {
+  padding: 14px 32px 15px 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+
+  height: 56px;
+  border-radius: 4px;
+  background-color:  #69B99D;
+  border: 0;
+  
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+
+  cursor: pointer;
+}
+
+footer{
+  width: 592px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font: 400;
+}
+
+.treine{
+  color: #1F1534;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
